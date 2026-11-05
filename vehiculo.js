@@ -1,7 +1,7 @@
 class Vehiculo {
-constructor(marca) {
-    this.marca = marca;
- }
+    constructor(marca) {
+        this.marca = marca;
+    }
 }
 
 class Coche extends Vehiculo {
@@ -11,7 +11,7 @@ class Coche extends Vehiculo {
     }
 
     detalles() {
-        console.log(`Vehiculo marca: ${this.marca}, modelo: ${this.modelo}`);
+        console.log(`Vehículo marca: ${this.marca}, modelo: ${this.modelo}`);
     }
 }
 
